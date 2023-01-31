@@ -33,12 +33,17 @@ body{
 
 .heder-logo {
         font-family: 'Raleway';
-        font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 24px;
+        line-height: 1.33;
         letter-spacing: 0.03em;
          color: var(--second-title-color);
+        text-transform: uppercase;
+}
+
+.adress{
+    font-style: normal;
+
 }
 
 .header-list {}
@@ -52,6 +57,12 @@ body{
     letter-spacing: 0.02em;
     color: var(--second-title-color);
 }
+
+.currrent {
+    color: var(--mein-btn-color);
+}
+
+
 .header-link:hover,.header-link:focus{
     color: #404BBF;
 }
@@ -76,13 +87,15 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--mein-title-color);
     background: var(--mein-btn-color);
     cursor: pointer;
 }
-.hero-btn :hover,.hero-btn:focus{
-    background: var(--focus-btn-color);
-    color: var(--mein-title-color);
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var(--focus-btn-color);
+    color: var(--second-btn-color);
 }
 
 .hero{
@@ -140,7 +153,9 @@ body{
 /*---------------------------------work---------------*/
 
 /*---------------------------------TEAM---------------*/
-.team {}
+.team {
+    background-color: var(--second-btn-color);
+}
 
 .team-title {
     font-weight: 700;
@@ -187,7 +202,8 @@ font-weight: 400;
         font-size: 18px;
         line-height: 1.16;
         letter-spacing: 0.03em;
-         color: var(--mein-title-color)
+        color: var(--mein-title-color);
+        text-transform: uppercase;
 }
 
 .caption-pre {
@@ -205,6 +221,7 @@ font-weight: 400;
 }
 
 .portfolio-btn{
+        font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
